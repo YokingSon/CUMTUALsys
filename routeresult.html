@@ -1,0 +1,28 @@
+﻿
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <title>规划结果</title>
+    <link rel="stylesheet" href="https://cache.amap.com/lbs/static/main1119.css"/>
+
+    <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.9&key=6bee925d9922f64c254c1ed4821f17fe"></script>
+    <script type="text/javascript" src="https://cache.amap.com/lbs/static/addToolbar.js"></script>
+   
+</head>
+<body>
+<div width="100px" height="20px" style="position:absolute;right:25px;top:100px;z-index:1;" >
+<input type="button" id="get" value="收回路线" onclick="funget()"   />
+<input type="button" id="put" value="投放路线" onclick="funput()"  />
+</div>
+
+<div id="container" style="position:absolute;text-align:center;width:1300px;left:20px;top:30px;bottom:30px" >
+</div>
+<div id="tips" style="position:absolute;left:1325px;top:130px;width:200px;">
+
+</div>
+</body>
+     <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/gaoderoute.js"></script>
+</html>

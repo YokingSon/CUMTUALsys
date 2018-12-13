@@ -1,0 +1,116 @@
+.menubar{
+	position:relative;
+	top:-2px;
+	width:100%;
+	height:25px;
+	line-height:25px;
+	cursor:default;
+	border-width:1px;
+	border-style:outset;
+	color:#FFFFFF;
+	background:#b3deda;
+    
+}
+.menu {
+    top: 32px;
+    width: 100px;
+    display: none;
+    border-width: 2px;
+    border-style: outset;
+    border-color: white sliver sliver white;
+    background: #b3deda;
+    padding: 5px;
+}
+.menu a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+.menu a:hover{
+	color: #FFFFFF;
+}
+#leftcolumn{
+    float:left;
+    margin-left:20px;
+    width:355px;
+    position: relative;
+	top: 150px;
+}
+#rightcolumn{
+    width:980px;
+	height:550px;
+    position:absolute;
+	top: 160px;
+    text-align:left;
+    margin-left:400px;
+   z-index:-1;
+	
+   
+}
+ #weather {
+	height: 180px;
+	background-color: #fff;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: absolute;
+	bottom: 20px;
+	font-size: 12px;
+	right: 10px;
+	border-radius: 3px;
+	line-height: 20px;
+    border: 1px solid #ccc;
+} 
+.weather{
+	position:absolute;
+	left:-170px;
+	width: 200px;
+	padding-left: 8px;
+	display: inline-block;
+}
+#tip {	
+	position: absolute;
+	font-size: 12px;
+	left:300px;
+	top: 150px;
+	line-height: 30px;
+}
+ul,li{margin:0;padding:0}
+#scrollDiv{
+	 position:relative;
+	 top: 20px;
+	 width:350px;
+     height:100px;
+	 min-height:25px;
+	 line-height:25px;
+	 border:#ccc 1px solid;
+	 overflow:hidden;
+}
+#scrollDiv li{height:25px;
+     padding-left:10px;
+}
+#searchstyle{
+     display:none; 
+}
+#form1{
+    position: absolute;
+	top: 470px;
+    left:100px;
+}
+  .info-title {
+            color: white;
+            font-size: 14px;
+            background-color:blue;
+            line-height: 26px;
+            padding: 0px 0 0 6px;
+            font-weight: lighter;
+            letter-spacing: 1px
+        }
+        .info-content {
+            font: 12px Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', 'Î¢ÈíÑÅºÚ', Arial;
+            padding: 4px;
+            color: #666666;
+            line-height: 23px;
+        }
+        .info-content img {
+            float: left;
+            margin: 3px;
+        }
